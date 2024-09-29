@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage with CSS Selectors</title>
+    <style>
+        /* Element selector: Styles all paragraphs */
+        p {
+            color: blue;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Class selector: Styles elements with the "highlight" class */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        /* ID selector: Styles the element with a specific ID */
+        #main-heading {
+            color: darkgreen;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        /* Styling links */
+        a {
+            color: darkred;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-heading">Welcome to My Simple Webpage</h1>
+
+    <p>This is a basic example of a webpage that includes various HTML elements and CSS selectors.</p>
+
+    <h2>About This Page</h2>
+    <p>This section explains the purpose of this webpage. It demonstrates the use of <span class="highlight">element</span>, <span class="highlight">class</span>, and <span class="highlight">ID selectors</span> in CSS.</p>
+
+    <h2>Useful Links</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com" target="_blank" class="highlight">W3Schools</a> – Learn Web Development</li>
+        <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a> – Documentation on Web Technologies</li>
+    </ul>
+
+    <h2>Another Section</h2>
+    <p class="highlight">This paragraph is highlighted using a class selector.</p>
+    <p>Here is a regular paragraph styled by the element selector.</p>
+
+</body>
+</html>
