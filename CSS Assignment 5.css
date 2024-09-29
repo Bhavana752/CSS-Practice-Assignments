@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.flex-container {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+.flex-item {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1; /* Allow items to grow and fill space */
+}
