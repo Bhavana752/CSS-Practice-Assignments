@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color and Background Demonstration</title>
+    <style>
+        /* Setting a background color and text color for the entire page */
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling the main heading with a background color */
+        h1 {
+            background-color: #ba185e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Section with gradient background */
+        .gradient-section {
+            background: linear-gradient(to right, #fffc5f, #feb47b); /* Gradient from left to right */
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Background image with repeat and position control */
+        .background-image-section {
+            background-image: url('https://via.placeholder.com/1024x768.png'); /* Replace with any image of your choice */
+            background-repeat: no-repeat;
+            background-size: cover; /* Cover the entire section */
+            background-position: center; /* Center the image */
+            padding: 50px;
+            text-align: center;
+            color: white;
+            background-color: #6a3093; /* Fallback background color */
+            margin: 20px 0;
+        }
+
+        /* Styling paragraphs with different background colors */
+        .solid-background {
+            background-color: #27d6d6;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .solid-background-2 {
+            background-color: #d4edda;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        /* Footer section with radial gradient */
+        footer {
+            background: radial-gradient(circle, #6a3093, #a044ff); /* Radial gradient */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Color and Background Demonstration</h1>
+
+    <section class="gradient-section">
+        <h2>Gradient Background Section</h2>
+        <p>This section uses a linear gradient background that transitions from one color to another.</p>
+    </section>
+
+    <section class="background-image-section">
+        <h2>Background Image Section</h2>
+        <p>This section has a background image that covers the section completely.</p>
+
+    </section>
+
+    <section>
+        <p class="solid-background">This paragraph has a solid background color (light red).</p>
+        <p class="solid-background-2">This paragraph has a different solid background color (light green).</p>
+    </section>
+
+    <footer>
+        <p>Footer with radial gradient background</p>
+    </footer>
+
+</body>
+</html>
